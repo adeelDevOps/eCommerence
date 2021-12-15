@@ -68,4 +68,4 @@ router.put("/:id/pay", isAuth, async (req, res) => {
   }
 });
 
-export default router;
+module.exports = { router};

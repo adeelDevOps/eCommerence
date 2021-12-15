@@ -111,4 +111,4 @@ router.post('/', isAuth, isAdmin, async (req, res) => {
   return res.status(500).send({ message: ' Error in Creating Product.' });
 });
 
-export default router;
+module.exports ={router};
