@@ -15,7 +15,6 @@
     "multer-s3": "^2.9.0",
     "web-vitals": "^2.1.1"
   },
-  "type":"module",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
@@ -29,7 +28,7 @@
     "nodemon": "^2.0.13"
   },
   "scripts": {
-    "back": "nodemon --experimental-modules --es-module-specifier-resolution=node --exec babel-node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
